@@ -8,7 +8,7 @@ spec:
   - http:
       paths:
         - pathType: Prefix
-          path: "/dashboard"
+          path: "/dashboard.html"
           backend:
             service:
               name: nginx-server-service
